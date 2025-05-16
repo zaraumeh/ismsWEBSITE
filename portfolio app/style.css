@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  /* background-color: rgb(240, 239, 239); */
+  color: #333;
+  background-image: url('.//Images/background\ for\ web.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pictures {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture-item>p{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.picture-item>img{
+  padding: 70px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: #333;
+}
+.profile_image{
+  /* border-radius: 30px;
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  padding: 20px; */
+  align-self: center;
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.profle text{
+  text-align: right;
+  text-decoration: solid;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: right;
+  align-items: right;     
+  padding: 30px;
+  gap: 40px;         
+}
+.nav-links a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.nav-links a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  width: 70%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.contact-text {
+  text-align: center;
+ 
+}
+
+.phone{
+  text-decoration: underline;
+  
+}
+
+.write-up {
+  padding: 14px 20px;
+}
+
+.write-up>p{
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.welcometext > h1 {
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.nav-links a:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+.contact-text{
+  padding: 14px 20px; 
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} 
+
+.footer {
+  background-color: #333;
+  color: #f5f5f5;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 20%;
+  font-size: 14px;
+}
+
+.footertext {
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
